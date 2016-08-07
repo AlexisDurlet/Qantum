@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\main\lib\flib\flib.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\..\main\lib\flib\flib_vec2.cpp" />
+    <ClCompile Include="time.cpp" />
+    <ClCompile Include="transform.cpp">
+      <Filter>Base Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="uo_box.cpp">
+      <Filter>Base Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="clamp.cpp">
+      <Filter>Math Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="uo_box_collider.cpp">
+      <Filter>Base Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="kinematic.cpp">
+      <Filter>Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="kinematic_gravity.cpp">
+      <Filter>Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="uo_box_physical.cpp">
+      <Filter>Base Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="platform.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="platform_moving.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Game Objects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="lerp.cpp">
+      <Filter>Math Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="probe.cpp">
+      <Filter>Tools Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="trigger.cpp">
+      <Filter>Tools Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="trigger_linked.cpp">
+      <Filter>Tools Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="decoration.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="decoration_animated.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="blink_vector.cpp">
+      <Filter>Game Objects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="kinematic_cycle.cpp">
+      <Filter>Kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="trap.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="check_point.cpp">
+      <Filter>Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="xml_data.cpp">
+      <Filter>XML Parser\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="xml_element.cpp">
+      <Filter>XML Parser\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="xml_attribute.cpp">
+      <Filter>XML Parser\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="xml_root.cpp">
+      <Filter>XML Parser\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="minmax.cpp">
+      <Filter>Math Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="level.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="load_utilities.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Math Functions">
+      <UniqueIdentifier>{24ddc1d5-9d5a-4f2d-b34d-c2feaa1a52c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kinematics">
+      <UniqueIdentifier>{df6bc086-4e88-496f-87f5-b7c226e67743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inputs">
+      <UniqueIdentifier>{e05aeba0-2e2d-4329-97c0-f0b18ad55b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base Objects">
+      <UniqueIdentifier>{907b33e1-94d1-4cc0-83ec-4fd71be55cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects">
+      <UniqueIdentifier>{b76a74df-f754-4ce7-b578-3fb7626a9c70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Player">
+      <UniqueIdentifier>{e460ec26-9e3e-4afb-b2a4-a6bdf2c20126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools Objects">
+      <UniqueIdentifier>{8b7a2cf6-3422-4d7f-9a06-25da1869c620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Display">
+      <UniqueIdentifier>{290bb2d3-f401-4cc0-a5fe-edacbf5fe5a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML Parser">
+      <UniqueIdentifier>{fbcc2549-5920-4a20-a3f7-eb1b4e17f060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML Parser\SLL">
+      <UniqueIdentifier>{783f71f3-af47-45e5-bad5-bdd35d896c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML Parser\XML">
+      <UniqueIdentifier>{360c0b4f-38c0-4a3f-8423-4f8b7fa6f87a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{c482f3f4-9d67-4010-b2a6-d69eb187c0c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="time.h" />
+    <ClInclude Include="constants.h" />
+    <ClInclude Include="transform.h">
+      <Filter>Base Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="uo_box.h">
+      <Filter>Base Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="clamp.h">
+      <Filter>Math Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="uo_box_collider.h">
+      <Filter>Base Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="kinematic.h">
+      <Filter>Kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="kinematic_gravity.h">
+      <Filter>Kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="uo_box_physical.h">
+      <Filter>Base Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="e_input_id.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="e_input_state.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="platform.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Game Objects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="platform_moving.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="e_player_move_state.h">
+      <Filter>Game Objects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="lerp.h">
+      <Filter>Math Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="probe.h">
+      <Filter>Tools Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="trigger.h">
+      <Filter>Tools Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="trigger_linked.h">
+      <Filter>Tools Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="e_player_tp_state.h">
+      <Filter>Game Objects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="decoration.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="decoration_animated.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="blink_vector.h">
+      <Filter>Game Objects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="kinematic_cycle.h">
+      <Filter>Kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="trap.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="e_orientation.h" />
+    <ClInclude Include="fade.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="e_player_life_state.h">
+      <Filter>Game Objects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="check_point.h">
+      <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="xml_attribute.h">
+      <Filter>XML Parser\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="xml_data.h">
+      <Filter>XML Parser\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="xml_element.h">
+      <Filter>XML Parser\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="sll_root.h">
+      <Filter>XML Parser\SLL</Filter>
+    </ClInclude>
+    <ClInclude Include="sll_item.h">
+      <Filter>XML Parser\SLL</Filter>
+    </ClInclude>
+    <ClInclude Include="xml_root.h">
+      <Filter>XML Parser\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="xml_search.h">
+      <Filter>XML Parser\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="minmax.h">
+      <Filter>Math Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="level.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="load_utilities.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
